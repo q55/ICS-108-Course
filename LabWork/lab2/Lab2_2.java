@@ -11,8 +11,8 @@ public class Lab2_2 {
     }
 
     public static void printNRandomLetterGrades(int n){
-        for(int i = 1;i<=n;i++){
-            int num = (int) (Math.random()*10);
+        for(int i = 0;i<n;i++){
+            int num = (int) (Math.random()*9);
             switch (num){
                 case 0 ->  System.out.println("A+");
                 case 1 ->  System.out.println("A");
