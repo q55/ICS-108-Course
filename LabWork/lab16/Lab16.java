@@ -23,7 +23,6 @@ public class Lab16 {
             }
             Collections.sort(number);
 
-
             File SortedText = new File("sortedStudents.txt");
             try{
                 PrintWriter out = new PrintWriter(SortedText);
